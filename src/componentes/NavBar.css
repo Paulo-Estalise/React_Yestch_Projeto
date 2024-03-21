@@ -1,20 +1,26 @@
 .navbar {
-    background-color: #333; /* Cor de fundo da barra de navegação */
-    padding: 10px; /* Espaçamento interno */
-  }
-  
-  .navbar-brand {
-    color: #fff; /* Cor do texto do título */
-    font-size: 24px; /* Tamanho da fonte do título */
-  }
-  
-  .navbar-item {
-    color: #fff; /* Cor do texto das categorias */
-    margin-right: 10px; /* Espaçamento entre as categorias */
-    text-decoration: none; /* Remover sublinhado */
-  }
-  
-  .navbar-item:hover {
-    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre as categorias */
-  }
-  
+  background-color: #333;
+  padding: 10px;
+}
+
+.brand {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}

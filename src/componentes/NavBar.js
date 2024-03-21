@@ -1,20 +1,18 @@
 import React from 'react';
-import './NavBar.css'; // Importe o arquivo de estilo CSS
+import './NavBar.css';
 
 const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <span className="navbar-item">Yestch</span>
+        <span className="brand">Yestch</span>
       </div>
-      <div className="navbar-menu">
-        <div className="navbar-start">
-          <a className="navbar-item">Categoria 1</a>
-          <a className="navbar-item">Categoria 2</a>
-          <a className="navbar-item">Categoria 3</a>
-          {/* Adicione mais categorias conforme necessário */}
-        </div>
-      </div>
+      <ul className="nav-list">
+        <li className="nav-item">Categoria 1</li>
+        <li className="nav-item">Categoria 2</li>
+        <li className="nav-item">Categoria 3</li>
+        {/* Adicione mais categorias conforme necessário */}
+      </ul>
     </nav>
   );
 }
