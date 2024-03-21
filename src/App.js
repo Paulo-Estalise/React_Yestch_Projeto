@@ -56,3 +56,5 @@ function App() {
 
 export {App};
 
+import NavBar from './components/NavBar.js';
+import NavBar from './components/NavBar.css';
