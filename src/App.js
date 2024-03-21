@@ -23,3 +23,19 @@ function App() {
 }
 
 export default App;
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Yestch</h1>
+        <p>Seu slogan ou descrição aqui...</p>
+      </header>
+    </div>
+  );
+}
+
+export {App};
+
