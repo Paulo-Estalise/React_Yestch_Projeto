@@ -58,3 +58,18 @@ export {App};
 
 import NavBar from './components/NavBar.js';
 import NavBar from './components/NavBar.css';
+
+
+import React from 'react';
+import ItemListContainer from './ItemListContainer';
+
+const MinhaPagina = () => {
+  return (
+    <div>
+      <h1>Minha Página</h1>
+      <ItemListContainer greeting="Olá, seja bem-vindo!" />
+    </div>
+  );
+};
+
+export {MinhaPagina};
