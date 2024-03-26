@@ -1,4 +1,4 @@
-/* src/components/NavBar.css */
+
 
 nav {
   background-color: #333;
@@ -9,7 +9,7 @@ nav {
   color: white;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 20px; /* Espaçamento à direita para separar o nome da loja dos links */
+  margin-right: 20px; 
 }
 
 ul {
