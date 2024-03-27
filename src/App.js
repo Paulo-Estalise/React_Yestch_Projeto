@@ -1,5 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import './components/NavBar.css';
+import ItemListContainer from './ItemListContainer';
 
 function App() {
   return (
@@ -23,53 +27,24 @@ function App() {
 }
 
 export default App;
-import React from 'react';
-import './App.css';
 
-import React from 'react';
-import './App.css';
-
-function App() {
+function NavBar() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Yestch</h1>
-        <p>Seu slogan ou descrição aqui...</p>
-      </header>
+    <div className="navbar">
+      {/* Conteúdo do NavBar */}
     </div>
   );
 }
 
-export {App};
-import React from 'react';
-import NavBar from './components/NavBar';
-import './App.css';
+export { NavBar };
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      {/* Adicione o restante do conteúdo do seu aplicativo aqui */}
-    </div>
-  );
-}
-
-export {App};
-
-import NavBar from './components/NavBar.js';
-import NavBar from './components/NavBar.css';
-
-
-import React from 'react';
-import ItemListContainer from './ItemListContainer';
-
-const MinhaPagina = () => {
+function MinhaPagina() {
   return (
     <div>
       <h1>Minha Página</h1>
       <ItemListContainer greeting="Olá, seja bem-vindo!" />
     </div>
   );
-};
+}
 
-export {MinhaPagina};
+export { MinhaPagina };
