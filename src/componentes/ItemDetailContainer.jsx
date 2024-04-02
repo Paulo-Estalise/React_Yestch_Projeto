@@ -49,4 +49,3 @@ const ItemDetailContainer = () => {
 };
 
 export default ItemDetailContainer;
-<p>Carregando...</p>
