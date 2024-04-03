@@ -15,7 +15,7 @@ const ItemList = () => {
           { id: 3, name: 'Item 3', price: 30, description: 'Description for item 3' }
         ];
         setItems(mockData);
-      }, 2000); // 2 segundos de atraso
+      }, 2000); 
     };
 
     fetchItems();
